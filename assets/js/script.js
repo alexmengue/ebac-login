@@ -4,8 +4,8 @@ const loginButton = document.getElementById('submit');
 
 loginButton.addEventListener('click', () => {
     if (login.value === 'admin' && password.value === 'admin') {
-        alert('Logado com sucesso');
+        alert('You are successfully logged in');
     } else {
-        alert('Acesso negado, usuário ou senha incorreto.');
+        alert('You have entered an invalid username or password.');
     }
 });
